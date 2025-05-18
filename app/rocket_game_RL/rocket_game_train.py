@@ -2,7 +2,7 @@ from stable_baselines3 import DQN
 from stable_baselines3.common.env_util import make_vec_env
 from gymnasium.wrappers import FlattenObservation
 import pygame
-from gymnasium_env.envs.rocketRL import RocketRLEnv
+from env.rocketRL_env import RocketRLEnv
 def train_and_test():
     # Training
     print("Training agent...")

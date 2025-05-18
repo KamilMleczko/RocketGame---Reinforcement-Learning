@@ -1,13 +1,9 @@
 from gymnasium.envs.registration import register
 import gymnasium as gym
-from gymnasium_env.envs.rocket import RocketEnv
+from env.rocket_env import RocketEnv
 import pygame
 import numpy as np
 
-register(
-    id="gymnasium_env/Rocket-v0",
-    entry_point="gymnasium_env.envs:RocketEnv",
-)
 def main():
     #env = RocketEnv(render_mode="human", )
     env = RocketEnv(render_mode="human", grid_height=10, grid_width=15) 

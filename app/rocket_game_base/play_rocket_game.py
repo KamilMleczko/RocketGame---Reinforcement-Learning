@@ -1,7 +1,7 @@
 import pygame
 import numpy as np
 import sys
-from gymnasium_env.envs.rocket import RocketEnv, Actions
+from env.rocket_env import RocketEnv, Actions
 
 def play_rocket_game():
     # Initialize the environment
