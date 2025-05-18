@@ -1,2 +1,6 @@
-# RocketGame---Reinforcement-Learning
-Training RL model on simple video game
+rDependencies can be installed with uv easily
+
+```
+uv init
+uv sync
+```
