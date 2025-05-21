@@ -5,7 +5,7 @@ from env.rocket_env import RocketEnv, Actions
 
 def play_rocket_game():
     # Initialize the environment
-    env = RocketEnv(render_mode="human", grid_height=5, grid_width=10)
+    env = RocketEnv(render_mode="human", grid_height=10, grid_width=15)
     observation, info = env.reset()
     
     # Set up pygame
