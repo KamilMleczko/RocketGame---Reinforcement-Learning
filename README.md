@@ -22,8 +22,8 @@ The training consisted of iteratively playing episodes and updating the neural n
 <img width="1660" height="877" alt="image3" src="https://github.com/user-attachments/assets/d851a5f1-99c5-48c1-adb0-c04339a46e5c" />
 
 
-#4. Install dependencies with uv
-
+# 4. How to run
+Install dependencies with uv
 ```
 uv init
 uv sync
